@@ -4,18 +4,24 @@ body {
 
 .poster {
   margin: 0 auto;
-  background-color: #344883;
-  /* background-image: url("../img/heavyarms.png");
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-size: cover; */
+  /* position: absolute;
+  top: 50vw;
+  left: 50vw;
+  -webkit-transform: translate (-50%, -50%);
+  transform: translate (-50%, -50%); */
+  /* background: linear-gradient(
+    217deg,
+    rgba(248, 185, 80, 0.8),
+    rgba(205, 27, 25, 0.5),
+    rgba(52, 72, 131, 1) 40%
+  ); */
   width: 600px;
   height: 800px;
   overflow: hidden;
   -webkit-animation-name: bgcolor;
   animation-name: bgcolor;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -25,11 +31,11 @@ body {
     background-color: #f8b950;
   }
 
-  50% {
+  80% {
     background-color: #344883;
   }
   100% {
-    background-color: #696564;
+    background-color: #cd1b19;
   }
 }
 
@@ -42,7 +48,7 @@ body {
     background-color: #344883;
   }
   100% {
-    background-color: #cd1b19;
+    background-color: #343434;
   }
 }
 
@@ -160,8 +166,8 @@ body {
   line-height: 250px;
   -webkit-animation: blink;
   animation: blink;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-delay: 2s;
