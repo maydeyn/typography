@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(30, 28, 33);
+}
+
+.poster {
+  margin: 0 auto;
+  background-color: #344883;
+  /* background-image: url("../img/heavyarms.png");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover; */
+  width: 600px;
+  height: 800px;
+  overflow: hidden;
+  -webkit-animation-name: bgcolor;
+  animation-name: bgcolor;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bgcolor {
+  0% {
+    background-color: #f8b950;
+  }
+
+  50% {
+    background-color: #344883;
+  }
+  100% {
+    background-color: #696564;
+  }
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #f8b950;
+  }
+
+  80% {
+    background-color: #344883;
+  }
+  100% {
+    background-color: #cd1b19;
+  }
+}
+
+.bg-img {
+  background-image: url("../img/heavyarms.png");
+  background-repeat: repeat;
+  background-blend-mode: screen;
+  background-size: 160%;
+  width: 600px;
+  height: 800px;
+  overflow: hidden;
+  -webkit-animation-name: zooms;
+  animation-name: zooms;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  /* -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
+}
+
+@-webkit-keyframes zooms {
+  0% {
+    background-size: 5%;
+  }
+  25% {
+    background-size: 60%;
+  }
+  50% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 160%;
+  }
+}
+
+@keyframes zooms {
+  0% {
+    background-size: 5%;
+  }
+  25% {
+    background-size: 60%;
+  }
+  50% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 160%;
+  }
+}
+
+.jp-text {
+  position: relative;
+  top: 730px;
+  font-family: "Nico Moji";
+  font-size: 30px;
+  text-align: center;
+  color: #cd1b19;
+}
+
+.jp-text:hover {
+  color: #e4f1e0;
+  font-size: 40px;
+}
+
+.cn-text-1 {
+  position: absolute;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 600;
+  text-shadow: 5px 5px #cd1b19;
+  color: #e4f1e0;
+  top: 50px;
+  font-size: 150px;
+  line-height: 140px;
+  -webkit-animation-name: slide-in;
+  animation-name: slide-in;
+  -webkit-animation-duration: 4s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    top: 500px;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  100% {
+    top: 50px;
+    font-size: 150px;
+    line-height: 140px;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    top: 500px;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  100% {
+    top: 50px;
+    font-size: 150px;
+    line-height: 140px;
+  }
+}
+
+.cn-text-2 {
+  position: absolute;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 900;
+  text-shadow: 10px 2px #cd1b19;
+  color: #e4f1e0;
+  top: 190px;
+  font-size: 270px;
+  line-height: 250px;
+  -webkit-animation: blink;
+  animation: blink;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
