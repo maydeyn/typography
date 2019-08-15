@@ -2,4 +2,4 @@
 
 ### heavyarms gundam in action
 
-- parsons bootcamp 2019
+parsons bootcamp 2019
