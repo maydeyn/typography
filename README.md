@@ -1,3 +1,4 @@
 # Typogrpahy CSS Animation
 
-## heavyarm gundam
+### heavyarms gundam in action.
+### parsons bootcamp 2019
