@@ -1,3 +1,3 @@
-# typography project
-# heavyarm gundam
-# HTML & CSS
+# Typogrpahy CSS Animation
+
+## heavyarm gundam
